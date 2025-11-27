@@ -156,9 +156,37 @@
         <section id="projects" class="py-20 border-t border-primary/30">
             <h2 class="text-4xl font-bold text-center mb-12 text-white">Featured Projects</h2>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"> <!-- Changed to 3 columns for better fit -->
 
-                <!-- Project Card 1: Full-Stack Document Automation App (Live Demo Enabled) -->
+                <!-- Project Card 1: AI Study Coach - HackUMBC 2025 -->
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-2xl transition duration-500 hover:shadow-primary/50">
+                    <!-- Placeholder image reflecting the project theme -->
+                    <img src="https://placehold.co/800x450/10b981/ffffff?text=AI+Study+Coach+Dashboard" alt="AI Study Coach Dashboard Screenshot" class="w-full h-52 object-cover">
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-2xl font-bold text-primary">AI Study Coach (HackUMBC)</h3>
+                        <p class="text-light-text/80">
+                            An intelligent academic advisory system leveraging **Neo4j graph database** and **local AI (Ollama)** to analyze student performance patterns, identify peer relationships, and generate personalized study recommendations.
+                        </p>
+                        
+                        <!-- Technology Tags -->
+                        <div class="flex flex-wrap gap-2 text-xs font-semibold">
+                            <span class="px-2 py-1 bg-primary/20 text-primary rounded-full">Neo4j (Graph DB)</span>
+                            <span class="px-2 py-1 bg-primary/20 text-primary rounded-full">Ollama (Local AI)</span>
+                            <span class="px-2 py-1 bg-primary/20 text-primary rounded-full">React & Flask</span>
+                            <span class="px-2 py-1 bg-primary/20 text-primary rounded-full">AI/NLP</span>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="flex space-x-4 pt-4">
+                            <!-- Using the exact repository name: hackumbc-2025 -->
+                            <a href="https://github.com/sohamkatkar24/hackumbc-2025" target="_blank" class="w-full text-center py-2 bg-slate-700 text-light-text font-bold rounded-lg hover:bg-primary transition duration-300">
+                                View Code (GitHub)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: Full-Stack Document Automation App (Live Demo Enabled) -->
                 <div class="bg-slate-800 rounded-xl overflow-hidden shadow-2xl transition duration-500 hover:shadow-primary/50">
                     <!-- Using a visual placeholder URL -->
                     <img src="https://placehold.co/800x450/4f46e5/ffffff?text=Document+Automation+App+UI" alt="Full-Stack Document Automation App" class="w-full h-52 object-cover">
@@ -190,7 +218,7 @@
                     </div>
                 </div>
 
-                <!-- Project Card 2: Full-Stack Tic-Tac-Toe Game (Live Demo Disabled) -->
+                <!-- Project Card 3: Full-Stack Tic-Tac-Toe Game (Live Demo Disabled) -->
                 <div class="bg-slate-800 rounded-xl overflow-hidden shadow-2xl transition duration-500 hover:shadow-primary/50">
                     <!-- Using a visual placeholder URL -->
                     <img src="https://placehold.co/800x450/818cf8/0f172a?text=Tic-Tac-Toe+Game+Screenshot" alt="Full-Stack Tic-Tac-Toe Game" class="w-full h-52 object-cover">
